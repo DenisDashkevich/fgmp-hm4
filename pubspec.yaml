@@ -1,0 +1,33 @@
+name: fgmp_hm_4
+
+description: Homework num 4.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  dio: ^3.0.9
+
+  retrofit: ^1.3.4
+
+  json_annotation: ^3.0.1
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  retrofit_generator: ^1.3.7+5
+
+  json_serializable: ^3.3.0
+
+  build_runner: ^1.10.0
+
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
